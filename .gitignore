@@ -2,7 +2,7 @@
 .vscode
 
 vendor/
-lib/
+#lib/
 dist/
 es/
 www/
