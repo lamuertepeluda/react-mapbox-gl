@@ -21,8 +21,7 @@ export default class Source extends React.Component<Props, void> {
     private id;
     private onSourceData;
     private onMapLoaded;
-    shouldComponentUpdate(nextProps: any): boolean;
-    componentDidUpdate(prevProps: any): void;
+    componentWillReceiveProps(nextProps: Props): void;
     componentWillUnmount(): void;
     componentDidMount(): void;
     render(): null;
