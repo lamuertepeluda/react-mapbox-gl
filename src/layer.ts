@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as MapboxGL from 'mapbox-gl';
-const isEqual = require('deep-equal'); //tslint:disable-line
+// const isEqual = require('deep-equal'); //tslint:disable-line
+import isEqual = require('lodash.isequal');
 import diff from './util/diff';
 import * as GeoJSON from 'geojson';
 import { generateID } from './util/uid';
